@@ -1,4 +1,14 @@
-import {MigrationInterface, QueryRunner, Table} from "typeorm";
+/**
+    Para criar esse arquivo
+    yarn typeorm migration:create -n CreateSurveys
+
+    Depois de preencher esse arquivo
+    yarn typeorm migration:run
+
+    Lembrar de criar agora o modelo, o repository e o controller
+**/
+
+import { MigrationInterface, QueryRunner, Table } from "typeorm";
 
 export class CreateSurveys1615587609851 implements MigrationInterface {
 
